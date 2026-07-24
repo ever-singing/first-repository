@@ -1,0 +1,40 @@
+# ===== IDE相关 =====
+.idea/
+.vs/
+*.user
+*.suo
+
+# ===== 编译产物（C++常见）=====
+*.obj
+*.exe
+*.out
+*.o
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+/Debug/
+/Release/
+/x64/
+/x86/
+/bin/
+/obj/
+
+# ===== 数据库/缓存文件 =====
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+
+# ===== 系统/临时文件 =====
+*.lnk
+*.tmp
+*.log
+Thumbs.db
+.DS_Store
+
+# ===== 项目配置（可选，如果想统一编译设置就不忽略）=====
+# CMakeLists.txt.user
+# CMakeFiles/
+# cmake-build-*/
